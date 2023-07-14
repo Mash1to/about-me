@@ -1,1 +1,5 @@
 /*サイト全体に適用するcss*/
+.head_color {
+    font-family:impact ;
+    color:royalblue
+}
