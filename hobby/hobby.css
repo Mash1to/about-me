@@ -1,0 +1,24 @@
+.hobby-ttl{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    color: #fff;
+    border: solid 1px #fff;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    color:black;
+}
