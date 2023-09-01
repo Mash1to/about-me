@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" media="all">
 </head>
 <body>
-    <h1>Contact</h1>
-</body>
+    <div class="contact">
+        <h1 class="contact-ttl">Contact</h1>
+        <form action="">
+            <table class="contact-table"></table>
+                <tbody>
+                    <tr>
+                        <th class="contact-item">名前</th>
+                        <td class="contact-body">
+                            <input class="form-text" type="text" name="名前">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="contact-item">メール</th>
+                        <td class="contact-body">
+                            <input class="form-text" type="email" name="メール">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="contact-item">電話</th>
+                        <td class="contact-body">
+                            <input class="form-text" type="tel" name="電話">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="contact-item">お問い合わせ内容</th>
+                        <td class="contact-body">
+                            <textarea class="form-text" type="text" name="問い合わせ"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input class="contact-submit" type="submit" value="送信">
+            </form>
+        </div>
+    </body>
 </html>
