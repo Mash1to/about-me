@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mypro</title>
+    <title>about-me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="style">
@@ -23,5 +23,12 @@
             <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
+    <section class="time">
+        <p id="choice">ここに日時を表示します</p>
+    </section>
+    <script>
+    'use strict';
+    document.getElementById('choice').textContent = new Date();
+    </script>
 </body>
 </html>
