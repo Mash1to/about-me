@@ -5,3 +5,4 @@
 ・ABOUT
 ・HOBBY
 ・CONTACT
+・fishing
