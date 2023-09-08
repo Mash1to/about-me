@@ -35,3 +35,7 @@ a{
     text-align: center;
     font-size: 25;
 }
+
+.time{
+    text-align: right;
+}
