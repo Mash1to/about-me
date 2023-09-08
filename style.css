@@ -7,27 +7,20 @@
     text-align: center;
 }
 
-.nav {
-    margin-bottom: 50px;
-    text-align: center;
-}
 .nav-list li{
     display: inline-block;
     margin: 0;
     border-left: 1px solid 
 }
+
 .nav-list li:first-child {
     border-left: none;
 }
+
 .nav-list a {
     display: inline-block;
     padding: 0 15px;
     line-height: 1.2;
     text-transform: uppercase;
-}
-
-li{
-    float: left;
-    padding: 10px;
 }
 
