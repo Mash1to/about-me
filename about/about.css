@@ -1,4 +1,8 @@
 /* /about　だけで使うcss */
+*{
+    color: black;
+}
+
 .about-myname{
     font-size:40px;
     font-weight:bold;
