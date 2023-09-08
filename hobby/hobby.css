@@ -11,14 +11,22 @@
 }
 
 .child {
-    color: #fff;
-    border: solid 1px #fff;
-    text-align: center;
-    line-height: 100px;
-    width: 100px;
-    height: 100px;
+    display: flex;
+    margin: 100px;
 }
 
 a{
     color:black;
+}
+
+.footer {
+    text-align: center;
+}
+
+.photo1 {
+    text-align: left;
+}
+
+.photo2 {
+    text-align: right;
 }
